@@ -1,5 +1,5 @@
 # written by Gerald Spilinek
-# last edited 11/13/2021
+# last edited 01/07/2022
 # This program was made to make the manual remittance process faster for michelle to save her time at work
 # it does this by utilizing a wrapper someone made for AHK and reading in the data from an excel spreadsheet
 # it then grabs the ones we need clicks onto the window it needs and then starts typing
