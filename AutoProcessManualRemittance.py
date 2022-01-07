@@ -8,10 +8,12 @@ from ahk import AHK
 import pandas as pd
 import time
 import keyboard
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
 
 # File Path global Declarations
 AHKFILEPATH = "PATH TO YOUR AHK FILE"
-XCELFILEPATH = 'PATH TO THE EXCEL FILE'
+XCELFILEPATH = askopenfilename()
 
 
 def typeParamaters(ahk, xcel):  # given a spreadsheet of script#, amount paid, & date filled will process the remitance
